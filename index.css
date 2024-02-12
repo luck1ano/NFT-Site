@@ -1,9 +1,4 @@
-/* 
-Challenge:
-1. Refactor the CSS to make it DRYer
-   by grouping selectors together where
-   possible.
-*/
+
 
 body{
     font-size: 16px;
@@ -37,6 +32,40 @@ a{
 
 a:hover, a:active {
     color: #d4b44c;
+}
+
+.btn-dark, 
+.btn-mid,
+.btn-light {
+    padding: 10px 19px;
+    border-radius: 4.6px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.btn-dark {
+    background-color: #5f29a3;
+    color: whitesmoke;
+}
+
+.btn-mid {
+    background-color: #f0e0ff;
+    color: #5f29a3;
+}
+
+.btn-light {
+    background-color: whitesmoke;
+    color: #5f29a3
+}
+
+.btn-dark:hover,
+.btn-mid:hover,
+.btn-light:hover, 
+.btn-dark:active,
+.btn-mid:active,
+.btn-light:active {
+    background-color: #f3e885;
+    color: #2b283a;
 }
 
 /* layout */
